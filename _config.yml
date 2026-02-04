@@ -53,7 +53,7 @@ include:
   - _pages
 
 atom_feed:
-hide: true
+  hide: true
 # footer:
 #   links:
 #     - label: "University of Warwick"
