@@ -46,7 +46,7 @@ defaults:
 
 # Tell Jekyll to load your custom CSS
 custom_css:
-  - /assets/css/custom.css
+  - /assets/css/style.scss
 
 
 # Markdown
