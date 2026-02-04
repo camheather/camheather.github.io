@@ -1,23 +1,32 @@
 /* Avatar styling */
 .author__avatar {
-  width: 300px;           /* size of the avatar */
-  height: 300px;
+  width: 500px;           /* size of the avatar */
+  height: 500px;
   border-radius: 50%;     /* makes it circular */
   opacity: 1 !important;  /* fully bright */
   pointer-events: none;   /* prevents click */
 }
 
-/* Remove hover effects */
-.author__avatar:hover {
+.sidebar,
+.author__name,
+.author__bio {
   opacity: 1 !important;
 }
+
+/* Prevent hover effects from changing opacity */
+.sidebar:hover,
+.author__avatar:hover,
+.author__content:hover {
+  opacity: 1 !important;
+}
+
 /* 
 Adjust spacing under bio */
 .author__bio {
   margin-bottom: 0.3em;
 }
 
-/* /* Change sidebar width */
+/* Change sidebar width */
 .sidebar {
   max-width: 300px;
-} */
+}
