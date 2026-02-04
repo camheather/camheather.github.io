@@ -52,13 +52,17 @@ highlighter: rouge
 include:
   - _pages
 
-# Footer settings
+atom_feed:
+  hide: true
 footer:
-  links:
-    - label: "University of Warwick"
-      icon: "fas fa-building-columns"
-      url: "https://www.university.edu"
-    - label: "Department of X"
-      icon: "fas fa-building"
-      url: "https://www.university.edu/department"
-  copyright: "© Cameron Heather, 2026"
+  links: []
+# # Footer settings
+# footer:
+#   links:
+#     - label: "University of Warwick"
+#       icon: "fas fa-building-columns"
+#       url: "https://www.university.edu"
+#     - label: "Department of X"
+#       icon: "fas fa-building"
+#       url: "https://www.university.edu/department"
+#   copyright: "© Cameron Heather, 2026"
