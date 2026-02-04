@@ -14,7 +14,7 @@ plugins:
 # Author info (used in sidebar)
 author:
   name: "Cameron Heather"
-  avatar: "/assets/images/me_waterfall.jpeg" # optional
+  avatar: "/assets/images/me_waterfall.jpg" # optional
   bio: "<i class='fas fa-building-columns'></i> University of Warwick"
   links:
     - label: "Email"
