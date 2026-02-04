@@ -16,12 +16,16 @@ author:
   name: "Cameron Heather"
   # avatar: "/assets/images/avatar.jpg" # optional
   bio: "PhD student"
-  institution: "University of Warwick"
+  - label: "University of Warwick"
+    icon: "fas fa-university"
   location: "Coventry, UK"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:cameron.heather@warwick.ac.uk"
+    # - label: "University of Warwick"
+    #   icon: "fas fa-university"
+    #   url: "https://www.university.edu"
     # - label: "Google Scholar"
     #   icon: "ai ai-google-scholar"
     #   url: "https://scholar.google.com/..."
