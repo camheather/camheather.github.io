@@ -44,8 +44,10 @@ defaults:
       layout: single
       author_profile: true
 
+# Tell Jekyll to load your custom CSS
 custom_css:
   - /assets/css/custom.css
+
 
 # Markdown
 markdown: kramdown
