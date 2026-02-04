@@ -1,5 +1,5 @@
 title: "Cameron Heather"
-subtitle: "PhD Student, University of Warwick"
+# subtitle: "PhD Student, University of Warwick"
 description: ""
 url: "https://camheather.githib.io"
 baseurl: ""
@@ -15,8 +15,9 @@ plugins:
 author:
   name: "Cameron Heather"
   # avatar: "/assets/images/avatar.jpg" # optional
-  bio: "Your role at your institution. Research interests."
-  location: "University of Warwick"
+  bio: "PhD student"
+  institution: "University of Warwick"
+  location: "Coventry, UK"
   links:
     - label: "Email"
       icon: "fas fa-envelope"
