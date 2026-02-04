@@ -1,21 +1,18 @@
-
+/* Avatar styling */
 .author__avatar {
-  opacity: 1 !important;   /* always fully bright */
-  pointer-events: auto;    /* keep it clickable if needed */
+  width: 300px;           /* size of the avatar */
+  height: 300px;
+  border-radius: 50%;     /* makes it circular */
+  opacity: 1 !important;  /* fully bright */
+  pointer-events: none;   /* prevents click */
 }
 
+/* Remove hover effects */
 .author__avatar:hover {
-  opacity: 1 !important;   /* prevent hover dimming */
+  opacity: 1 !important;
 }
-
-/* Make avatar bigger */
-.author__avatar {
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-}
-
-/* Adjust spacing under bio */
+/* 
+Adjust spacing under bio */
 .author__bio {
   margin-bottom: 0.3em;
 }
