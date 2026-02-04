@@ -1,8 +1,48 @@
+title: "Cameron Heather"
+subtitle: "PhD Student, University of Warwick"
+description: ""
+url: "https://camheather.githib.io"
+baseurl: ""
+
+
 remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
 plugins:
   - jekyll-include-cache
-title: Cameron Heather
-description: Testing testing
 
+
+# Author info (used in sidebar)
+author:
+  name: "Cameron Heather"
+  # avatar: "/assets/images/avatar.jpg" # optional
+  bio: "Your role at your institution. Research interests."
+  location: "University of Warwick"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:cameron.heather@warwick.ac.uk"
+    # - label: "Google Scholar"
+    #   icon: "ai ai-google-scholar"
+    #   url: "https://scholar.google.com/..."
+    # - label: "ORCID"
+    #   icon: "ai ai-orcid"
+    #   url: "https://orcid.org/...."
+    # - label: "GitHub"
+    #   icon: "fab fa-github"
+    #   url: "https://github.com/yourusername"
+
+# Layout defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
 include:
-- _pages
+  - _pages
