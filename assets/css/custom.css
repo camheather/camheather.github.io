@@ -1,13 +1,17 @@
-/* Keep avatar fully bright and remove hover effect */
-.author__avatar,
+
+.author__avatar {
+  opacity: 1 !important;   /* always fully bright */
+  pointer-events: auto;    /* keep it clickable if needed */
+}
+
 .author__avatar:hover {
-  opacity: 1 !important;
+  opacity: 1 !important;   /* prevent hover dimming */
 }
 
 /* Make avatar bigger */
 .author__avatar {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
 }
 
@@ -16,7 +20,7 @@
   margin-bottom: 0.3em;
 }
 
-/* Change sidebar width */
+/* /* Change sidebar width */
 .sidebar {
   max-width: 300px;
-}
+} */
