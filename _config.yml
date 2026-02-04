@@ -3,3 +3,6 @@ plugins:
   - jekyll-include-cache
 title: Cameron Heather
 description: Testing testing
+
+include:
+- _pages
