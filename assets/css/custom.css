@@ -1,0 +1,22 @@
+/* Keep avatar fully bright and remove hover effect */
+.author__avatar,
+.author__avatar:hover {
+  opacity: 1 !important;
+}
+
+/* Make avatar bigger */
+.author__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Adjust spacing under bio */
+.author__bio {
+  margin-bottom: 0.3em;
+}
+
+/* Change sidebar width */
+.sidebar {
+  max-width: 300px;
+}
