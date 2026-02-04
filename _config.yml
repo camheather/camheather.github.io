@@ -15,9 +15,7 @@ plugins:
 author:
   name: "Cameron Heather"
   # avatar: "/assets/images/avatar.jpg" # optional
-  bio: "PhD student"
-  - label: "University of Warwick"
-    icon: "fas fa-university"
+  bio: "<i class='fas fa-university'></i> University of Warwick"
   location: "Coventry, UK"
   links:
     - label: "Email"
