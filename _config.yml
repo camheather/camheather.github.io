@@ -21,7 +21,7 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:cameron.heather@warwick.ac.uk"
     - label: "Department Profile"
-      icon: "fab fa-link"
+      icon: "fa-solid fa-id-card"
       url: "https://warwick.ac.uk/fac/sci/maths/people/staff/heather/"
     # - label: "Google Scholar"
     #   icon: "ai ai-google-scholar"
