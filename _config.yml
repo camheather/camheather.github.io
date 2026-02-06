@@ -1,13 +1,29 @@
 title: "Cameron Heather"
 # subtitle: "PhD Student, University of Warwick"
 description: ""
-url: "camheather.githib.io"
-baseurl: ""
+# url: "camheather.githib.io"
+# baseurl: ""
 
+minimal_mistakes_skin: default
+search: true
 
-theme: mmistakes/minimal-mistakes@4.27.3
-minimal_mistakes_skin: "default"
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
   - jekyll-include-cache
 
 
@@ -71,3 +87,32 @@ footer:
 #       icon: "fas fa-building"
 #       url: "https://www.university.edu/department"
 #   copyright: "© Cameron Heather, 2026"
+
+
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
