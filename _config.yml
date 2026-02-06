@@ -5,7 +5,7 @@ url: "camheather.githib.io"
 baseurl: ""
 
 minimal_mistakes_skin: default
-search: true
+# search: true
 
 # Build settings
 markdown: kramdown
@@ -29,7 +29,7 @@ plugins:
 # Author info (used in sidebar)
 author:
   name: "Cameron Heather"
-  # avatar: "/assets/images/me_waterfall2.jpg" # optional
+  avatar: "/assets/images/me_waterfall2.jpg" # optional
   bio: "<i class='fas fa-building-columns'></i> University of Warwick"
   links:
     - label: "Email"
