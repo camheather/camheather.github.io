@@ -1,6 +1,6 @@
 ---
 layout: single
 title: "About"
-permalink: /
+permalink: /about/
 ---
-Testing this did anything?
+## hmmmmm???
