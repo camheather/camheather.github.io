@@ -55,9 +55,12 @@ author:
   avatar : "/assets/images/me_waterfall2.jpg"
   # bio    : 
   links:
-    - label: "University of Warwick, Coventry, UK"
+    - label: "University of Warwick"
       icon: "fas fa-fw fa-link"
       url: "https://"    
+    - label: "Email"
+      icon: "fas fa-fw fa-link"
+      url: "https://" 
     - label: "University Profile"
       icon: "fas fa-fw fa-link"
       url: "https://"
