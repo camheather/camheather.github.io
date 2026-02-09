@@ -1,0 +1,4 @@
+/* Make sidebar photo semi-transparent */
+.author-image img {
+  opacity: 0.5; /* 0 = fully transparent, 1 = fully opaque */
+}
